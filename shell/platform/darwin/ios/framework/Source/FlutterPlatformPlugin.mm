@@ -171,9 +171,9 @@ using namespace flutter;
     return;
 
   UIStatusBarStyle statusBarStyle;
-  if ([style isEqualToString:@"Brightness.dark"])
+  if ([style isEqualToString:@"Brightness.light"])
     statusBarStyle = UIStatusBarStyleLightContent;
-  else if ([style isEqualToString:@"Brightness.light"])
+  else if ([style isEqualToString:@"Brightness.dark"])
     statusBarStyle = UIStatusBarStyleDefault;
   else
     return;
